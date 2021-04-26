@@ -1,4 +1,4 @@
-let NC = +prompt ("Ingresa el número de litros")
+let NC = +prompt ("Ingresa el número de consulta")
 
 switch (NC){
         case 1:
