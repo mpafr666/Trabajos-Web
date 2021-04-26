@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(201, 201, 185);
+    font-family: sans-serif;
+}
+
+.cuerpo {
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tarjeta {
+    height: 400px;
+    width: 400px;
+    background: white; 
+    border-radius: 20px;
+    margin: 20px;
+}
+.imagen {
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+
+.imagen > img {
+    width: 100%;
+    transform: translate(0, -60px);
+}
+
+
+.texto {
+    padding: 20px;
+    height: 40%;
+
+}
+
+.titulo {
+color: darkslateblue;
+margin-top: 4px;
+}
+
+.parrafo {
+margin-top: 5px;
+font-size: 14px;
+color: yellowgreen;
+}

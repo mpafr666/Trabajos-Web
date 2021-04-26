@@ -1,0 +1,22 @@
+File
+New Repository+
+Le damos un nombre
+Create Repository
+Publish Repository
+Desactivar keep this code private
+Publish Repository
+Abrir el repositorio con VSCode
+con VSCode creamos un index.html
+Despues que crean el html
+Van a github desktop
+Hacen un commit
+Hacemos un push origin
+vamos a github.com
+Hemos buscado nuestro repositorio
+lo hemos abierto
+hemos ido a settings
+y hemos bajado hasta Github pages
+Seleccionan main/master
+y dan click a save
+Regresamos a github pages
+abrimos el Link que nos aparece ahí

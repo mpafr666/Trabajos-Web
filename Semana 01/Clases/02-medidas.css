@@ -1,0 +1,24 @@
+*{ 
+border: 1px solid blue 
+} 
+header {
+    height:50px;
+    width:100px;
+}
+
+p {
+    border: 3px solid red;
+    height:50px;
+    width:750px;
+}
+
+#etiqueta::first-letter {
+    font-size:14px;
+border: red;
+}
+
+div{
+    border:solid saddlebrown;
+width: 100vw;
+height: 100vh;
+}

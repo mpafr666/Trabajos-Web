@@ -1,0 +1,36 @@
+h1{
+    font-weight: bolder;
+    padding: 40px;
+}
+.hola {
+    background-color: aquamarine;
+    color: burlywood;
+}
+#etiqueta {
+    padding: 40px;
+    background-color: coral;
+}
+
+input[placeholder]{
+    background-color:darkgreen;
+}
+input:placeholder-shown {
+    color: darkorange;
+}
+tr:nth-child(even){
+    background-color: blue; 
+}
+
+tr:nth-child(odd){
+    background-color: deeppink;
+}
+
+tr:nth-child(2), tr:nth-child(3) {
+    background-color: green
+}
+
+table, th, tr {
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+}

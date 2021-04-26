@@ -1,0 +1,28 @@
+#nave {
+    width: 100px;
+}
+
+#nave:hover {
+    animation-name: ejemplo;
+    animation-duration: 6s;
+}
+
+@keyframes ejemplo {
+    0% {
+        transform: translate(0,0);
+    }
+    25% {
+        transform: translate(500px, 0) rotate(30deg);
+    }
+    50% {
+        transform: translate(500px, 500px) rotate(30deg);
+    }
+    75% {
+        transform: translate(0px, 500px) rotate(30deg);
+    }
+    100% {
+        transform: translate(0px, 0px) rotate(30deg);
+    }
+}
+
+

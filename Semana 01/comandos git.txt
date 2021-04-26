@@ -1,0 +1,46 @@
+git init -> 1 sola vez
+
+git status -> c/vez que desee ver como va mi repositorio de git
+
+git add nombre_archivo 
+
+git commit -m "mensaje"
+
+--- sale error ---
+---me dice quien sos???---
+
+git config --list
+
+cls -> limpia la terminal
+
+git config --global user.name "nombre"
+
+git config --global user.email "mail"
+
+git log -> resumen de los commits
+
+git add . -> con el punto indicamos que
+queremos agregar todo los cambios que encuentre
+
+git show <nombre_archivo o token>
+Me sirve para ver los cambios a detalle
+
+git diff <token1> <token2>
+
+//ver ramas
+git branch
+
+//crear una nueva rama
+git branch nombre_rama
+
+//cambiar rama
+git checkout nombre_rama
+
+//unir ramas
+git merge nombre_rama
+
+//Une el git add con el git commit
+git commit -am "mensaje"
+
+//va a regresar a un commit anterior por su id
+git reset --hard <token>
